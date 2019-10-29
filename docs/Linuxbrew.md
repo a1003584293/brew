@@ -18,7 +18,7 @@ The Homebrew package manager may be used on Linux and Windows 10, using [Windows
 Paste at a terminal prompt:
 
 ```sh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/a1003584293/Linuxbrew-install/master/install.sh)"
 ```
 
 The installation script installs Linuxbrew to `/home/linuxbrew/.linuxbrew` using *sudo* if possible and in your home directory at `~/.linuxbrew` otherwise. Linuxbrew does not use *sudo* after installation. Using `/home/linuxbrew/.linuxbrew` allows the use of more binary packages (bottles) than installing in your personal home directory.
